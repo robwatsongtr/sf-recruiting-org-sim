@@ -21,7 +21,7 @@ List<Contact> contactsToInsert = new List<Contact>();
 
 for ( Account acc : accToInsert ) {
     contactsToInsert.add( new Contact( 
-        FirstName = 'Hiring', LastName = 'Manager' + acc.Name, AccountId = acc.Id 
+        FirstName = 'Hiring ', LastName = 'Manager' + acc.Name, AccountId = acc.Id 
     ));
 }
 
